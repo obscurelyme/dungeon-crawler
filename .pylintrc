@@ -1,0 +1,7 @@
+[TYPECHECK]
+# List of module names for which member attributes should not be checked
+ignored-modules = pygame
+
+[MESSAGES CONTROL]
+# Disable the error for "no-member" on C extension modules
+disable = c-extension-no-member
